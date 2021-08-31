@@ -1,0 +1,107 @@
+/* @import url('https://fonts.googleapis.com/css?family=Bangers');
+
+@import url('https://fonts.googleapis.com/css?family=Krub:400,700'); */
+
+.result-card {
+  position: absolute;
+  top: 47%;
+  left: 35%;
+  width: 100%;
+  max-width: 500px;
+  padding: 20px 10px 10px 10px;
+  text-align: left;
+  color: white;
+  border-bottom: 1px solid grey;
+  box-shadow: 2px 3px 12px rgba(0, 0, 0, 0.4);
+  background: linear-gradient(
+    to right,
+    rgba(40, 40, 60, 1) 0%,
+    rgba(40, 0, 60, 0) 90%
+  );
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.search-result-card-image {
+  width: 80px;
+  height: 100px;
+}
+
+.result-card-container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding-left: 20px;
+  justify-content: space-around;
+}
+
+.hero {
+  text-align: left;
+  color: #fff;
+  font-size: 18px;
+}
+
+.powers-button {
+  border: 1px solid white;
+  border-radius: 8px;
+  position: relative;
+  z-index: 10;
+  color: white;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.3);
+  outline: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: all 0.2s;
+  border-radius: 5px;
+  padding: 5px;
+}
+.powers-button:hover {
+  background: rgba(233, 232, 232, 0.877);
+  color: #222;
+}
+.favourites-button {
+  border: 1px solid white;
+  border-radius: 8px;
+  position: relative;
+  z-index: 10;
+  color: white;
+  text-align: center;
+  background: rgba(209, 12, 12, 0.877);
+  outline: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: all 0.2s;
+  border-radius: 5px;
+  padding: 5px;
+}
+.favourites-button:hover {
+  background: rgba(233, 232, 232, 0.877);
+  color: #222;
+}
+
+#results {
+  position: absolute;
+  top: 48%;
+  left: 35.5%;
+  width: 33%;
+}
+
+.results-card {
+  /* position: absolute; */
+  color: #fff;
+  width: 100%;
+  padding: 20px 10px 10px 10px;
+  text-align: left;
+  border-bottom: 1px solid grey;
+  box-shadow: 2px 3px 12px rgba(0, 0, 0, 0.4);
+  background: linear-gradient(
+    to right,
+    rgba(40, 40, 60, 1) 0%,
+    rgba(40, 0, 60, 0) 90%
+  );
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}

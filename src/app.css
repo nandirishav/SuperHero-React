@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css?family=Bangers");
+
+@import url("https://fonts.googleapis.com/css?family=Krub:400,700");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Krub", sans-serif;
+  font-weight: thin;
+  background: black;
+  margin: 0px;
+  overflow-x: hidden;
+}
+
+/* .main {
+  width: 100%;
+  height: 100vh;
+  background: url("../public/images/bg1.webp");
+  background-position: center;
+  background-size: cover;
+} */
+
+#search-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  max-width: 500px;
+}
