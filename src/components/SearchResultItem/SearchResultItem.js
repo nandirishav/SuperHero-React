@@ -9,7 +9,10 @@ const SearchResultItem = (props) => {
       <img className="search-result-card-image" src={data.image.url} alt="" />
       <div className="result-card-container">
         <div>{data.name}</div>
-        <Link className="powers-button" to="/details">
+        <Link
+          className="powers-button"
+          to={{ pathname: "/details", data: data }}
+        >
           Know my SuperPowers
         </Link>
         <Link className="favourites-button" to="/favourites">

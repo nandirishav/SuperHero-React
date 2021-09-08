@@ -7,6 +7,7 @@ import Button from "@material-ui/core/Button";
 import IconButton from "@material-ui/core/IconButton";
 import MenuIcon from "@material-ui/icons/Menu";
 import "./navbar.css";
+import { Link } from "react-router-dom";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -34,7 +35,17 @@ const Navbar = () => {
             <Typography variant="h6" className={classes.title}>
               SuperHero Search
             </Typography>
-            <Button color="inherit">Home</Button>
+            <Link
+              style={{
+                color: "white",
+                padding: "10px",
+                textDecoration: "none",
+                fontWeight: "500",
+              }}
+              to="/"
+            >
+              HOME
+            </Link>
             <Button color="inherit">Favourites</Button>
           </Toolbar>
         </AppBar>

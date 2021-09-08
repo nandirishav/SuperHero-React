@@ -13,16 +13,8 @@ body {
   font-weight: thin;
   background: black;
   margin: 0px;
-  overflow-x: hidden;
+  overflow: hidden;
 }
-
-/* .main {
-  width: 100%;
-  height: 100vh;
-  background: url("../public/images/bg1.webp");
-  background-position: center;
-  background-size: cover;
-} */
 
 #search-box {
   display: flex;
@@ -31,4 +23,91 @@ body {
   align-items: center;
   width: 60%;
   max-width: 500px;
+}
+
+.card {
+  margin: 10% auto;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px 5px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  background: #151515;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.card-details {
+  width: 100%;
+  margin: 50px 0;
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.hero-img {
+  z-index: 1;
+  margin: auto;
+  border-radius: 50%;
+  width: 250px;
+  height: 280px;
+  background: white;
+  overflow: hidden;
+  border: 2px solid #fff8f8;
+}
+
+.superhero-name {
+  font-size: 40px;
+  padding: 20px;
+}
+
+.powerstats,
+.superheroInfo {
+  width: 80%;
+  margin: 15px auto;
+}
+
+.attribute-title,
+h1 {
+  color: crimson;
+  padding: 15px 0;
+}
+
+.detail-power {
+  padding: 8px;
+}
+
+.info-title {
+  margin-right: 10%;
+  font-weight: 400;
+  margin-bottom: 7px;
+}
+
+.bar {
+  height: 1px;
+  background: crimson;
+  text-align: right;
+  color: white;
+  font-size: 16px;
+  padding: 5px 5px 17px 0px;
+  animation: fadeIn 5s;
+  animation-delay: 0s;
+  padding-bottom: 20px;
+  animation-delay: 0.4s;
+  border-radius: 8px;
+}
+
+.detail {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.info-content {
+  text-align: right;
+  animation: fadeIn 5s;
 }
